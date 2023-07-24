@@ -1,0 +1,140 @@
+/* Reset some default styles and set up basic layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form input and button */
+  #city-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #city-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #city-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Style the current weather and forecast containers */
+  #current-weather, #forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Style individual weather cards */
+  .weather-card {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the search history container */
+  #search-history {
+    margin-top: 20px;
+  }
+  
+  /* Style the search history buttons */
+  #search-history button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the footer (optional) */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Styling the current weather card */
+#current-weather .weather-card {
+    flex-basis: 100%;
+    margin-bottom: 0;
+  }
+  
+  /* Styling the forecast cards */
+  #forecast .weather-card {
+    flex-basis: calc(20% - 20px);
+  }
+  
+  /* Additional styles for weather card content */
+  .weather-card p {
+    margin: 0;
+  }
+  
+  .weather-card img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .weather-card .temperature {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .weather-card .humidity {
+    font-size: 14px;
+    color: #888;
+  }
+
+  
+  /* Background colors */
+body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling the header and form */
+  h1, #city-form {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Styling the buttons */
+  #city-form button, #search-history button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #city-form button:hover, #search-history button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling weather cards */
+  .weather-card {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
